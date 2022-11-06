@@ -216,13 +216,13 @@ public final class Syntax {
 
     private String delimiterExecuteClose = "%}";
 
-    private String delimiterPrintOpen = "{{";
+    private String delimiterPrintOpen = "${";
 
-    private String delimiterPrintClose = "}}";
+    private String delimiterPrintClose = "}";
 
-    private String delimiterInterpolationOpen = "#{";
+    private String delimiterInterpolationOpen = "#[";
 
-    private String delimiterInterpolationClose = "}";
+    private String delimiterInterpolationClose = "]";
 
     private String whitespaceTrim = "-";
 
